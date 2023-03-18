@@ -1,0 +1,372 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .mobile_btn {
+      display: none;
+  }
+  
+  .inner-container {
+    width: 100%;
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .hero__section {
+    width: 100%;
+    height: 740px;
+    background-image: url("https://res.cloudinary.com/dqw7jnfgo/image/upload/q_30/v1663064582/random%20profile/randomprofile-min.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+    padding: 0 20px;
+  }
+  
+  .nav__list {
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 26px;
+    padding-right: 92px;
+    padding-bottom: 26px;
+  }
+  
+  .nav__list-item {
+    font-family: "Lato";
+    display: flex;
+    color: #a6a6a6;
+    margin-left: 30px;
+  }
+  
+  .nav__link {
+    color: currentColor;
+    line-height: 19px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .profile {
+    width: 100%;
+    padding-top: calc(181px - 71px);
+    max-width: 467px;
+  }
+  
+  .name {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    font-family: "Lato";
+    margin-bottom: 24px;
+  }
+  
+  .description {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Lato";
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+  
+  .btn {
+    padding: 26px 62px;
+    background-color: transparent;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  
+  .icon_list {
+    position: absolute;
+    bottom: 55.59px;
+    right: 100px;
+  }
+  
+  .icon_listitem {
+    display: flex;
+    font-size: 24px;
+  }
+  
+  .icon_link {
+    color: #404040;
+  }
+  
+  .icon_listitem + .icon_listitem {
+    margin-top: 29.5px;
+  }
+  
+  
+  .section_two-wrapper {
+      display: flex;
+      align-items: flex-start;
+      padding-top: 69px;
+  }
+  
+  .image-wrapper {
+      width: 505px;
+      height: 636.78px;
+      flex-shrink: 0;
+      margin-right: 19.92px;
+  }
+  
+  .image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  
+  
+  .about{
+    font-size: 32px;
+    line-height: 21px;
+    font-weight: 700;
+    font-family: 'Lato';
+    margin-bottom: 38px;
+  }
+
+  .content {
+    height: 504px;
+    font-size:16px;
+    line-height:24px;
+    font-weight:400;
+    font-family:'Lato';
+    margin-bottom: 60px;
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width: 768px) {
+    .nav-list {
+      display: none;
+    }
+  
+    .icon-list {
+      display: none;
+    }
+  
+    .profile {
+      position: absolute;
+      bottom: 40px;
+      color: white;
+      max-width: 284px;
+    }
+  
+    .name {
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 16px;
+    }
+  
+    .description {
+      font-size: 12px;
+      line-height: 18px;
+      margin-bottom: 14px;
+    }
+  
+    .mobile_btn {
+      display: block;
+      background-color: transparent;
+      outline: none;
+      border: none;
+      padding-top: 37px;
+    }
+
+    .hero-section {
+        background-image: url(https://s3-alpha-sig.figma.com/img/f0dc/5461/b503eecb5af697457bcd32cf7e54a3fd?Expires=1665964800&Signature=NV7FjU~7DLtFXBoaKFkBg4CUGiWKCbOZ~r5TSkBP3h1V~hEpFffsClZK-esUTbEvf5F56qY3nEcu2uyiv4uje7t5g-aWbWJbeNVPcroNzXISxF6xmZO0uCdZwzoWZvlpQhsexisBRPC9BRUX6nBgoI73DuAsDUMHfNXcYmp~mv99fPAsdeKmEEmIgaGrrda7OD2Ooo0Bz6EW74cU0DOb3clAsN0VR3srR1DeZdSrkl~DE6EI8qHDxIebndaVMzvBfdSPowwMapEewP4Ip4dyBdeBWL8k6dBXWHOJY3KdGkOh85zx4D7NF8uB6bZzIAvf~BICU8pzhqn8P7q~dbgkxQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+        display: center;
+        width: 100%;
+    }
+  }
+  
+  
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  
+  
+  
+  .gallery-items {
+    width: 400px;
+    height: 516px;
+    flex-shrink: 0;
+  }
+  
+  .gallery > .gallery-items:nth-child(-n + 3) {
+    margin-bottom: 40px
+  }
+  
+  .gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .top-one {
+    text-align: center;
+    font-size:32px ;
+    line-height: 21px;
+    font-weight: 700;
+    font-family: 'Lato';
+    margin-top: 12px;
+    
+    
+
+}
+.top-two {
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: 'Lato';
+    margin-top: 16px;
+    margin-bottom: 40px;
+
+
+}
+
+.view {
+    margin-top: 30px;
+    height: 74px;
+    width:184px; 
+    position:relative;
+    left: 45%;
+    cursor: pointer;
+    margin-bottom: 56px;
+
+}
+
+.clients {
+    font-family: Lato;
+    font-size: 32px;
+     font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 19px;
+}
+
+.rep {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 16px;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction:row;
+    justify-content: space between;
+    margin-top: 48px;
+}
+
+.logo-one {
+    margin-bottom: 70px;
+}
+.logo-two {
+    margin-left: 180px;
+    margin-bottom:83px;
+}
+
+.logo-three {
+    margin-left: 180px;
+    margin-bottom: 58.1px;
+}
+
+.contact {
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image-two {
+    width: 505px;
+    height:758.42px;
+    flex-shrink: 0;
+    margin-right: 125px;
+    margin-bottom: 165.22px;
+}
+
+
+
+
+
+.information {
+margin-top: 62px;
+font-size: 20px;
+font-family: Lato;
+font-weight: 400;
+
+}
+
+
+#input-top {
+  width: 505px;
+  height: 60px;
+  margin-bottom: 40px;
+  margin-right: 100px;
+}
+
+#input-one {
+  width: 505px;
+  height: 60px;
+  margin-bottom: 40px;
+  margin-left: 46px;
+}
+#input-two {
+  width: 505px;
+  height: 60px;
+  margin-bottom: 40px;
+  margin-left: 26px;
+}
+#input-three {
+  width: 505px;
+  height: 228px;
+  margin-bottom: 40px;
+  margin-left: 26px;
+}
+
+.message {
+  margin-top: 71px;
+  height: 60px;
+  width:295px; 
+  position:relative;
+  left: 45%;
+  cursor: pointer;
+  margin-bottom: 44px;
+}
+
+.fourth {
+  text-align: center;
+
+}
+
+.svg {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 13px;
+  bottom: 41.59px;
+}
+
+.insta {
+  margin-left: 35px;
+  margin-right: 35px;
+}
