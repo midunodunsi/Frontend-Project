@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./singlepagewebsite.css"/>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Folake Oduwa
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          folakeoduwa@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+           <a class="topmenu" href="#project">Project</a>
+           <a class="topmenu" href="#recommendations">Recommendations</a>
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://images.pexels.com/photos/7605189/pexels-photo-7605189.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Folake Oduwa! <img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+           I am an aspiring ful stack developwr with experience using HTML, CSS, JavaScript and React.
+           I look forward to putting my skills to use and very eager to learn. I have a few projects under my belt and cannot wait to use my skillsets to add value to the industry.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="./Resources/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="./Resources/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="./Resources/CSS3.png"/>
+          <h6>CSS</h6>
+          <p>3 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="./Resources/java.png"/>
+            <h6>Java</h6>
+            <p>2 years experience"</p>
+        </div>
+
+        <div class="skill">
+            <img src="./Resources/react.png"/>
+            <h6>React</h6>
+            <p>One year experience</p>
+        </div>
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Unit Converter</h3>
+            <ul>
+              <li>Developed a responsive website designed to change or convert units using HTML, CSS, and JavaScript</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <ul>
+              <li> Created a website for a client to showcase previous and current projects.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Ajo apllication app</h3>
+            <ul>
+              <li>Created a multi-page apllication website with a team of people with different skills to encourage saving and reaching a financial target with others</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Folake is a very hardworking and easy-going person. Everyone on trhe team had enjoyed her presence and enjoyed working with her.
+          She has made the projects we have worked on together seem like a walk in the park. 
+          I look forward to seeing her explore her potential in more challening roles.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Folake has been a great experience. 
+          She is highly knowledgable and always goes the extra mile to make sure everything comes out perfectly. 
+          For any future projects that need her skills, I would definitely want to work with her again.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Folake during the initial phase of our project which required her expertise. 
+          She is a committed and resourceful person who has in depth knowledge about her role and skillset. 
+          She will be an amazing asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Submission confirmed!!!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+
+    <script src="./singlepagewebsite.js"></script>
+  </body>
+</html>
